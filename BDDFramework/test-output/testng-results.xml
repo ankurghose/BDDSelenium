@@ -2,34 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2887" started-at="2021-02-08T14:04:22Z" finished-at="2021-02-08T14:04:24Z">
+  <suite name="Default suite" duration-ms="3027" started-at="2021-02-09T18:41:39Z" finished-at="2021-02-09T18:41:42Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@64bf3bbf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="2887" started-at="2021-02-08T14:04:22Z" finished-at="2021-02-08T14:04:24Z">
-      <class name="testRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@64bf3bbf]" name="setUpClass" is-config="true" duration-ms="107" started-at="2021-02-08T14:04:22Z" finished-at="2021-02-08T14:04:22Z">
+    <test name="Default test" duration-ms="3027" started-at="2021-02-09T18:41:39Z" finished-at="2021-02-09T18:41:42Z">
+      <class name="stepDef.VailfFormPage">
+        <test-method status="PASS" signature="i_am_on_the_from_s_page()[pri:0, instance:stepDef.VailfFormPage@56ef9176]" name="i_am_on_the_from_s_page" duration-ms="3009" started-at="2021-02-09T18:41:39Z" finished-at="2021-02-09T18:41:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@64bf3bbf]" name="feature" duration-ms="2687" started-at="2021-02-08T14:04:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-08T14:04:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vaild Forms Page]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@64bf3bbf]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2021-02-08T14:04:24Z" finished-at="2021-02-08T14:04:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
+        </test-method> <!-- i_am_on_the_from_s_page -->
+      </class> <!-- stepDef.VailfFormPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
