@@ -23,6 +23,12 @@ public WebElement getFirstname() {
 	return firstname;
 }
  
+ @FindBy(id="lastName")
+ public WebElement lastname;
+
+public WebElement getLastname() {
+	return lastname;
+}
  
  
 	

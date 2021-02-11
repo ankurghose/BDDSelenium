@@ -1,6 +1,7 @@
 package stepDef;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import common.Base;
@@ -22,7 +23,7 @@ FormPages PG;
 		PG.firstname.sendKeys("Ankur");
 		
 		// going to add more code
-		
+		PG.lastname.sendKeys("james");
 		
 		
 		
