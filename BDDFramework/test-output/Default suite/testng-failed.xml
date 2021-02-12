@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testRunner.TestRunner">
+      <class name="stepDef.VailfFormPage2">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0 1"/>
-          <include name="tearDownClass"/>
+          <include name="i_am_on_the_from_s_page"/>
         </methods>
-      </class> <!-- testRunner.TestRunner -->
+      </class> <!-- stepDef.VailfFormPage2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
