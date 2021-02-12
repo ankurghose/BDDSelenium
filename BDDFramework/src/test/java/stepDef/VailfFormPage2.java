@@ -36,8 +36,12 @@ FormPages PG;
 		PG.address.sendKeys("3030 Broadway");
 		
 		
-		//commit
+	
 		
+
+		PG.email.sendKeys("dsdssh@yhaoo.com");
+		//commit2 
+
 		
 	}
 
