@@ -35,16 +35,11 @@ FormPages PG;
 		//PG.picture.click();
 		PG.address.sendKeys("3030 Broadway");
 		
-		
-	
-		
-
 		PG.email.sendKeys("dsdssh@yhaoo.com");
-		//commit2 
+		//commit23
 
-		
-	}
-
+		}
+	
 	@Given("^I fill out the page$")
 	public void i_fill_out_the_page()  {
 	   
