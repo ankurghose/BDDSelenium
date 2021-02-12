@@ -21,164 +21,6 @@
   </head>
 
   <body>
-<<<<<<< HEAD
-    <div class="top-banner-root">
-      <span class="top-banner-title-font">Test results</span>
-      <br/>
-      <span class="top-banner-font-1">1 suite</span>
-    </div> <!-- top-banner-root -->
-    <div class="navigator-root">
-      <div class="navigator-suite-header">
-        <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
-          </img> <!-- collapse-all-icon -->
-        </a> <!-- collapse-all-link -->
-      </div> <!-- navigator-suite-header -->
-      <div class="suite">
-        <div class="rounded-window">
-          <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
-            </a> <!-- navigator-link -->
-          </div> <!-- suite-header light-rounded-window-top -->
-          <div class="navigator-suite-content">
-            <div class="suite-section-title">
-              <span>Info</span>
-            </div> <!-- suite-section-title -->
-            <div class="suite-section-content">
-              <ul>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">1 test</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
-                    <span>Times</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
-                    <span>Reporter output</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
-                    <span>Ignored methods</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
-                    <span>Chronological view</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-              </ul>
-            </div> <!-- suite-section-content -->
-            <div class="result-section">
-              <div class="suite-section-title">
-                <span>Results</span>
-              </div> <!-- suite-section-title -->
-              <div class="suite-section-content">
-                <ul>
-                  <li>
-                    <span class="method-stats">1 method,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="stepDef.VailfFormPage" hash-for-method="i_am_on_the_from_s_page">i_am_on_the_from_s_page</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
-                  </li>
-                </ul>
-              </div> <!-- suite-section-content -->
-            </div> <!-- result-section -->
-          </div> <!-- navigator-suite-content -->
-        </div> <!-- rounded-window -->
-      </div> <!-- suite -->
-    </div> <!-- navigator-root -->
-    <div class="wrapper">
-      <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">stepDef.VailfFormPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="i_am_on_the_from_s_page">
-                  </a> <!-- i_am_on_the_from_s_page -->
-                  <span class="method-name">i_am_on_the_from_s_page</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/tt/nsvrf5zx0jd9cpc6ljnl5fvw0000gn/T/testng-eclipse--1849108303/testng-customsuite.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;stepDef.VailfFormPage&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
-            </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-              <li>
-                <span class="test-name">Default test (1 class)</span>
-              </li>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
-=======
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
@@ -207,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse-674591154\testng-customsuite.xml</span>
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--817306382\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -292,27 +134,27 @@ Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, tim
 System info: host: &apos;DESKTOP-D7C059L&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x0047C013+3194899]
-	Ordinal0 [0x00366021+2056225]
-	Ordinal0 [0x001FF608+587272]
-	Ordinal0 [0x00181BF3+72691]
-	Ordinal0 [0x0017E229+57897]
-	Ordinal0 [0x0017C64A+50762]
-	Ordinal0 [0x001A1EE9+204521]
-	Ordinal0 [0x001A1D0D+204045]
-	Ordinal0 [0x0019FC1B+195611]
-	Ordinal0 [0x00183B7F+80767]
-	Ordinal0 [0x00184B4E+84814]
-	Ordinal0 [0x00184AD9+84697]
-	Ordinal0 [0x0037CE64+2149988]
-	GetHandleVerifier [0x005EBE95+1400773]
-	GetHandleVerifier [0x005EBB61+1399953]
-	GetHandleVerifier [0x005F31FA+1430314]
-	GetHandleVerifier [0x005EC69F+1402831]
-	Ordinal0 [0x00373D61+2112865]
-	Ordinal0 [0x0037E5CB+2155979]
-	Ordinal0 [0x0037E6F5+2156277]
-	Ordinal0 [0x0038F26E+2224750]
+	Ordinal0 [0x00CAC013+3194899]
+	Ordinal0 [0x00B96021+2056225]
+	Ordinal0 [0x00A2F608+587272]
+	Ordinal0 [0x009B1BF3+72691]
+	Ordinal0 [0x009AE229+57897]
+	Ordinal0 [0x009AC64A+50762]
+	Ordinal0 [0x009D1EE9+204521]
+	Ordinal0 [0x009D1D0D+204045]
+	Ordinal0 [0x009CFC1B+195611]
+	Ordinal0 [0x009B3B7F+80767]
+	Ordinal0 [0x009B4B4E+84814]
+	Ordinal0 [0x009B4AD9+84697]
+	Ordinal0 [0x00BACE64+2149988]
+	GetHandleVerifier [0x00E1BE95+1400773]
+	GetHandleVerifier [0x00E1BB61+1399953]
+	GetHandleVerifier [0x00E231FA+1430314]
+	GetHandleVerifier [0x00E1C69F+1402831]
+	Ordinal0 [0x00BA3D61+2112865]
+	Ordinal0 [0x00BAE5CB+2155979]
+	Ordinal0 [0x00BAE6F5+2156277]
+	Ordinal0 [0x00BBF26E+2224750]
 	BaseThreadInitThunk [0x772E6359+25]
 	RtlGetAppContainerNamedObjectPath [0x77AF8944+228]
 	RtlGetAppContainerNamedObjectPath [0x77AF8914+180]
@@ -380,7 +222,7 @@ remote stacktrace: Backtrace:
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse-674591154\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--817306382\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -422,7 +264,6 @@ remote stacktrace: Backtrace:
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
->>>>>>> branch 'CreationBranch' of https://github.com/ankurghose/BDDSelenium.git
 suiteTableInitFunctions.push('tableData_Default_suite');
 function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
@@ -433,54 +274,11 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'i_am_on_the_from_s_page')
-<<<<<<< HEAD
-data.setCell(0, 2, 'stepDef.VailfFormPage')
-data.setCell(0, 3, 2590);
-=======
 data.setCell(0, 2, 'stepDef.VailfFormPage2')
-data.setCell(0, 3, 2537);
->>>>>>> branch 'CreationBranch' of https://github.com/ankurghose/BDDSelenium.git
+data.setCell(0, 3, 2611);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
-<<<<<<< HEAD
-              </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
-            </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">stepDef.VailfFormPage</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">i_am_on_the_from_s_page</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-      </div> <!-- main-panel-root -->
-    </div> <!-- wrapper -->
-=======
               </script>
               <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
@@ -519,6 +317,5 @@ return data;
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
->>>>>>> branch 'CreationBranch' of https://github.com/ankurghose/BDDSelenium.git
   </body>
 </html>
