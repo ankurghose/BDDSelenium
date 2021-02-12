@@ -11,7 +11,7 @@ public class Base2 {
 	
 	public WebDriver getdriver() {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\git\\BDDSelenium\\BDDFramework\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\git\\BDDSelenium\\BDDFramework\\Drivers2\\chromedriver.exe");
 		driver = new ChromeDriver();
 		//driver.get("http://automationpractice.com/index.php");
 		//driver.get("https://www.jetblue.com/");
