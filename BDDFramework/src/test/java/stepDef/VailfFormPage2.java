@@ -4,7 +4,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import common.Base;
+
 import common.Base2;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -25,6 +25,15 @@ FormPages PG;
 		
 		// going to add more code
 		PG.lastname.sendKeys("james");
+		
+		PG.email.sendKeys("ankurjames@gmail.com");
+		PG.gender.click();
+		PG.mobile.sendKeys("2223334444");
+		//PG.dob.sendKeys("");
+		PG.subject.sendKeys("Math");
+		PG.hobbies.click();
+		//PG.picture.click();
+		PG.address.sendKeys("3030 Broadway");
 		
 		
 		
