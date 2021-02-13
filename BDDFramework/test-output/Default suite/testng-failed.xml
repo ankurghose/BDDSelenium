@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepDef.VailfFormPage2">
+      <class name="stepDef.VailfFormPage">
         <methods>
           <include name="i_am_on_the_from_s_page"/>
         </methods>
-      </class> <!-- stepDef.VailfFormPage2 -->
+      </class> <!-- stepDef.VailfFormPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
