@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.FormPages;
 
-public class VailfFormPage2 extends Base2 {
+public class VaildFormPage2 extends Base2 {
 FormPages PG;
 	
 	@Test
