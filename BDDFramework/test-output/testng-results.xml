@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
@@ -138,3 +139,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3168" started-at="2021-02-13T17:37:06Z" finished-at="2021-02-13T17:37:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3168" started-at="2021-02-13T17:37:06Z" finished-at="2021-02-13T17:37:09Z">
+      <class name="stepDef.VailfFormPage">
+        <test-method status="PASS" signature="i_am_on_the_from_s_page()[pri:0, instance:stepDef.VailfFormPage@56ef9176]" name="i_am_on_the_from_s_page" duration-ms="3152" started-at="2021-02-13T17:37:06Z" finished-at="2021-02-13T17:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_on_the_from_s_page -->
+      </class> <!-- stepDef.VailfFormPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> branch 'CreationBranch' of https://github.com/ankurghose/BDDSelenium

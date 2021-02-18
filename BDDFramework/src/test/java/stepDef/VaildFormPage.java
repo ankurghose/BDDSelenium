@@ -1,5 +1,7 @@
 package stepDef;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -8,9 +10,10 @@ import common.Base;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junit.framework.Assert;
 import pages.FormPages;
 
-public class VailfFormPage extends Base {
+public class VaildFormPage extends Base {
 FormPages PG;
 	
 	@Test
@@ -19,13 +22,16 @@ FormPages PG;
 		getdriver();
 	    
 		PG = PageFactory.initElements(driver, FormPages.class);
+	
+		//PG.firstname.sendKeys("Ankur");
+		WebElement x = driver.findElement(By.xpath("//input[@id='firstName']"));
+		x.sendKeys("Ankur");
 		
-		PG.firstname.sendKeys("Ankur");
-		
+	//	Assert.assertTrue(x.getAttribute("Ankur").contains("[a-zA-Z0-9]+"));
 		// going to add more code
 		PG.lastname.sendKeys("james");
 		
-		
+		Assert.assertEquals(x, x);
 		
 		
 	}
